@@ -1,2 +1,16 @@
+[tools]
+dotnet = '9'
+go = '1.25'
+neovim = '0.11.4'
+node = 'lts'
+rust = '1.88'
+zig = '0.15'
+
+[env]
+MISE_NODE_COREPACK = true
+
+
 [settings]
-legacy_version_file = true
+auto_install = true
+idiomatic_version_file_enable_tools = ["node", "go"]
+not_found_auto_install = true
