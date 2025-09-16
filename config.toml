@@ -1,28 +1,43 @@
 [tools]
 # language tools
 dotnet = '9'
-go = '1.25'
+go = 'latest'
 node = 'lts'
-rust = '1.88'
+rust = 'latest'
 zig = '0.15'
 
 # dev tools
-lazydocker = '0.24.1'
-lazygit = '0.55.0'
-neovim = '0.11.4'
-ripgrep = '14.1.1'
-fzf = '0.65.2'
-jq = '1.8.1'
-yq = '4.47.2'
-ni = 'latest'
+lazydocker = 'latest'
+lazygit = 'latest'
+neovim = 'latest'
+tmux = 'latest'
+yazi = 'latest'
+
+ripgrep = 'latest'
+fzf = 'latest'
+jq = 'latest'
+yq = 'latest'
+
+act = 'latest'
+docker-cli = 'latest'
+docker-compose = 'latest'
+
 gemini = 'latest'
 
-# global packages
+"cargo:lsd" = 'latest'
+"cargo:atuin" = 'latest'
+"cargo:tokei" = 'latest'
+"cargo:rustscan" = 'latest'
+"cargo:starship" = 'latest'
+"cargo:bandwhich" = 'latest'
+"cargo:hyperfine" = 'latest'
+"cargo:netscanner" = 'latest'
+
 "npm:@mcansh/pid-from-port-cli" = "latest"
 "npm:http-serve" = "latest"
 "npm:neovim" = "latest"
 "npm:serve" = "latest"
-"cargo:lsd" = "latest"
+"npm:@antfu/ni" = 'latest'
 
 
 [env]
@@ -33,6 +48,7 @@ MISE_NODE_COREPACK = true
 auto_install = true
 not_found_auto_install = true
 idiomatic_version_file_enable_tools = [
+  "elixir",
   "go",
   "java",
   "node",
