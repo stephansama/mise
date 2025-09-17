@@ -19,6 +19,8 @@ jq = 'latest'
 yq = 'latest'
 
 act = 'latest'
+lima = 'latest'
+colima = 'latest'
 docker-cli = 'latest'
 docker-compose = 'latest'
 
@@ -27,12 +29,14 @@ gemini = 'latest'
 "cargo:lsd" = 'latest'
 "cargo:atuin" = 'latest'
 "cargo:tokei" = 'latest'
+"cargo:jwt-ui" = 'latest'
 "cargo:rustscan" = 'latest'
 "cargo:starship" = 'latest'
 "cargo:bandwhich" = 'latest'
 "cargo:hyperfine" = 'latest'
 "cargo:netscanner" = 'latest'
 
+"npm:@stephansama/find-makefile-targets" = "latest"
 "npm:@mcansh/pid-from-port-cli" = "latest"
 "npm:http-serve" = "latest"
 "npm:neovim" = "latest"
