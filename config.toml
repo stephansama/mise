@@ -6,6 +6,9 @@ node = 'lts'
 rust = 'latest'
 zig = '0.15'
 
+python = 'latest'
+uv = 'latest'
+
 # dev tools
 lazydocker = 'latest'
 lazygit = 'latest'
@@ -60,3 +63,6 @@ idiomatic_version_file_enable_tools = [
   "ruby",
   "yarn",
 ]
+
+[settings.python]
+uv_venv_auto = true
