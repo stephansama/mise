@@ -4,4 +4,4 @@ install:
 	else \
 		echo "already installed"; \
 	fi; \
-	mise install && eval $(mise activate --shims)
+	mise install && eval $$(mise activate --shims)
