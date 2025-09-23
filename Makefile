@@ -5,3 +5,6 @@ install:
 		echo "already installed"; \
 	fi; \
 	mise install
+
+activate: install
+	mise activate --shims >/tmp/mise.sh
