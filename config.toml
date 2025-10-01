@@ -41,6 +41,7 @@ gemini = 'latest'
 
 "npm:@stephansama/find-makefile-targets" = "latest"
 "npm:@mcansh/pid-from-port-cli" = "latest"
+"npm:live-server" = "latest"
 "npm:http-serve" = "latest"
 "npm:neovim" = "latest"
 "npm:serve" = "latest"
