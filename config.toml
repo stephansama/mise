@@ -28,6 +28,7 @@ docker-cli = 'latest'
 docker-compose = 'latest'
 
 gemini = 'latest'
+opencode = 'latest'
 
 "cargo:lsd" = 'latest'
 "cargo:atuin" = 'latest'
