@@ -40,13 +40,14 @@ opencode = 'latest'
 "cargo:hyperfine" = 'latest'
 "cargo:netscanner" = 'latest'
 
-"npm:@stephansama/find-makefile-targets" = "latest"
-"npm:@mcansh/pid-from-port-cli" = "latest"
-"npm:live-server" = "latest"
-"npm:http-serve" = "latest"
-"npm:neovim" = "latest"
 "npm:serve" = "latest"
+"npm:neovim" = "latest"
 "npm:@antfu/ni" = 'latest'
+"npm:http-serve" = "latest"
+"npm:live-server" = "latest"
+"npm:@github/copilot" = "latest"
+"npm:@mcansh/pid-from-port-cli" = "latest"
+"npm:@stephansama/find-makefile-targets" = "latest"
 
 
 [env]
