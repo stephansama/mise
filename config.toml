@@ -21,14 +21,18 @@ fzf = 'latest'
 jq = 'latest'
 yq = 'latest'
 
+# Docker tools
 act = 'latest'
 lima = 'latest'
 colima = 'latest'
 docker-cli = 'latest'
 docker-compose = 'latest'
 
+# AI tools
 gemini = 'latest'
 opencode = 'latest'
+"npm:@github/copilot" = "latest"
+"npm:@openai/codex" = "latest"
 
 "cargo:lsd" = 'latest'
 "cargo:atuin" = 'latest'
@@ -45,7 +49,6 @@ opencode = 'latest'
 "npm:@antfu/ni" = 'latest'
 "npm:http-serve" = "latest"
 "npm:live-server" = "latest"
-"npm:@github/copilot" = "latest"
 "npm:@mcansh/pid-from-port-cli" = "latest"
 "npm:@stephansama/find-makefile-targets" = "latest"
 
