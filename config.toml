@@ -1,61 +1,58 @@
 [tools]
 # language tools
-dotnet = '9'
-go = 'latest'
-node = 'lts'
-rust = 'latest'
-zig = '0.15'
-
-python = 'latest'
-uv = 'latest'
-
+dotnet = "9"
+go = "latest"
+node = "lts"
+rust = "latest"
+zig = "0.15"
+python = "latest"
+uv = "latest"
 # dev tools
-lazydocker = 'latest'
-lazygit = 'latest'
-neovim = 'latest'
-tmux = 'latest'
-yazi = 'latest'
-
-ripgrep = 'latest'
-fzf = 'latest'
-jq = 'latest'
-yq = 'latest'
-
+lazydocker = "latest"
+lazygit = "latest"
+neovim = "latest"
+tmux = "latest"
+yazi = "latest"
+ripgrep = "latest"
+fzf = "latest"
+jq = "latest"
+yq = "latest"
 # Docker tools
-act = 'latest'
-lima = 'latest'
-colima = 'latest'
-docker-cli = 'latest'
-docker-compose = 'latest'
-
+act = "latest"
+lima = "latest"
+colima = "latest"
+docker-cli = "latest"
+docker-compose = "latest"
 # AI tools
-gemini = 'latest'
-opencode = 'latest'
+gemini = "latest"
+opencode = "latest"
 "npm:@github/copilot" = "latest"
 "npm:@openai/codex" = "latest"
-
-"cargo:lsd" = 'latest'
-"cargo:atuin" = 'latest'
-"cargo:tokei" = 'latest'
-"cargo:jwt-ui" = 'latest'
-"cargo:rustscan" = 'latest'
-"cargo:starship" = 'latest'
-"cargo:bandwhich" = 'latest'
-"cargo:hyperfine" = 'latest'
-"cargo:netscanner" = 'latest'
-
+# cargo
+"cargo:lsd" = "latest"  # ls replacement
+"cargo:atuin" = "latest"  # shell history
+"cargo:tokei" = "latest"  # line counter
+"cargo:jwt-ui" = "latest"  # jwt tui viewer
+"cargo:regect" = "latest"  # regex 101 like tui
+"cargo:scooter" = "latest"  # folder wide find and replace
+"cargo:rustscan" = "latest"  # port scanner
+"cargo:starship" = "latest"  # shell prompt
+"cargo:bandwhich" = "latest"  # bandwith analyzer
+"cargo:hyperfine" = "latest"  # benchmark tool
+"cargo:netscanner" = "latest"  # ip scanner
+# npm
+"npm:degit" = "latest"
 "npm:serve" = "latest"
 "npm:neovim" = "latest"
-"npm:@antfu/ni" = 'latest'
+"npm:@antfu/ni" = "latest"
+"npm:quicktype" = "latest"
 "npm:http-serve" = "latest"
 "npm:live-server" = "latest"
 "npm:@mcansh/pid-from-port-cli" = "latest"
 "npm:@stephansama/find-makefile-targets" = "latest"
 
-
 [env]
 MISE_NODE_COREPACK = true
-
 
 [settings]
 auto_install = true
