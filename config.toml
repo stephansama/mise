@@ -41,6 +41,7 @@ opencode = "latest"
 "cargo:hyperfine" = "latest"  # benchmark tool
 "cargo:netscanner" = "latest"  # ip scanner
 # npm
+"npm:poof" = "latest"
 "npm:degit" = "latest"
 "npm:serve" = "latest"
 "npm:neovim" = "latest"
