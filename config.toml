@@ -1,12 +1,13 @@
 [tools]
 # language tools
+bun = "latest"
 dotnet = "9"
 go = "latest"
 node = "lts"
-rust = "latest"
-zig = "0.15"
 python = "latest"
+rust = "latest"
 uv = "latest"
+zig = "0.15"
 # dev tools
 lazydocker = "latest"
 lazygit = "latest"
