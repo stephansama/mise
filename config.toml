@@ -33,6 +33,7 @@ opencode = "latest"
 "cargo:lsd" = "latest"  # ls replacement
 "cargo:atuin" = "latest"  # shell history
 "cargo:tokei" = "latest"  # line counter
+"cargo:tongo" = "latest"  # mongodb tui viewer
 "cargo:jwt-ui" = "latest"  # jwt tui viewer
 "cargo:regect" = "latest"  # regex 101 like tui
 "cargo:scooter" = "latest"  # folder wide find and replace
