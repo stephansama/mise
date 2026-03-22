@@ -29,8 +29,10 @@ gemini = "latest"
 opencode = "latest"
 "npm:@github/copilot" = "latest"
 "npm:@openai/codex" = "latest"
+"npm:vibe-kanban" = "latest"
 # cargo
 "cargo:lsd" = "latest"  # ls replacement
+"cargo:bacon" = "latest"  # repl implementation
 "cargo:atuin" = "latest"  # shell history
 "cargo:tokei" = "latest"  # line counter
 "cargo:tongo" = "latest"  # mongodb tui viewer
@@ -42,6 +44,7 @@ opencode = "latest"
 "cargo:bandwhich" = "latest"  # bandwith analyzer
 "cargo:hyperfine" = "latest"  # benchmark tool
 "cargo:netscanner" = "latest"  # ip scanner
+"cargo:cargo-workspaces" = "latest"  # cargo workspaces
 # npm
 "npm:poof" = "latest"
 "npm:degit" = "latest"
@@ -51,7 +54,9 @@ opencode = "latest"
 "npm:quicktype" = "latest"
 "npm:http-serve" = "latest"
 "npm:live-server" = "latest"
+"npm:@bitwarden/cli" = "latest"
 "npm:@mcansh/pid-from-port-cli" = "latest"
+"npm:@stephansama/ai-commit-msg" = "latest"
 "npm:@stephansama/find-makefile-targets" = "latest"
 
 [env]
